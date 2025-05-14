@@ -1,7 +1,7 @@
 hyfetch
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/mocha.omp.json)"
+  eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/slava.json)"
 fi
 
 ### Added by Zinit's installer
