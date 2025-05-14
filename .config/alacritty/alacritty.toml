@@ -31,3 +31,4 @@ y = 0
 
 [terminal]
 shell.program = "/usr/bin/tmux"
+shell.args = ["attach", "-t", "Default"]
