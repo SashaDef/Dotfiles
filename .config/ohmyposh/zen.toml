@@ -9,8 +9,16 @@ final_space = true
   [[blocks.segments]]
     type = 'path'
     style = 'plain'
-    background = 'transparent'
-    foreground = ''
+    background = 'p:os-bg'
+    foreground = 'p:os-fg'
+    template = '{{ .Path }}'
+
+  [blocks.segments.properties]
+    style = 'full'
+
+[transient_prompt]
+  foreground = 'p:os-fg'
+  background = 'p:os-bg'
 
 [palette]
 rosewater = "#f5e0dc"
