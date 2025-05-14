@@ -33,5 +33,5 @@ y = 0
 TERM = "xterm-256color"
 
 [terminal]
-shell.program = "/usr/bin/tmux"
-shell.args = ["attach", "-t", "Default"]
+shell.program = "tmux"
+shell.args = [ "attach", "-t", "Default" ]

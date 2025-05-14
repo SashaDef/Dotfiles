@@ -1,10 +1,4 @@
-if [ -n "$TMUX" ]; then
-  # Check if tmux window option is set
-  if [ -z "$(tmux show-option -qv "@zsh_first_run_$(tmux display -p '#{window_id}')")"]; then
-    tmux set-option -q "@zsh_first_run_$(tmux display -p '#{window_id}')" 1
-    hyfetch
-  fi
-fi
+hyfetch
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/slava.json)"
@@ -64,3 +58,6 @@ alias ls='ls --color'
 # Shell Integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Environment Variables
+export EDITOR=/usr/bin/nvim
