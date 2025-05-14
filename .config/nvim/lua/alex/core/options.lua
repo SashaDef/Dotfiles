@@ -20,7 +20,9 @@ opt.smartcase = true
 
 opt.cursorline = true
 
+vim.env.TERM = 'xterm-256color'
 opt.termguicolors = true
+
 opt.background = "dark"
 opt.signcolumn = "yes"
 
