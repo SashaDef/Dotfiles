@@ -30,4 +30,4 @@ x = 0
 y = 0
 
 [terminal]
-shell.program = "/usr/bin/zsh"
+shell.program = "/usr/bin/tmux"
