@@ -1,4 +1,4 @@
-hyfetch
+hyfetch --ascii-file ~/.config/fastfetch/ascii/Tryzub.txt
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/slava.json)"

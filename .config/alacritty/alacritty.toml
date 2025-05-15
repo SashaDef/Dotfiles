@@ -4,6 +4,7 @@ general.import = [
   # "~/.config/alacritty/catppuccin-frappe.toml"
   # "~/.config/alacritty/catppuccin-macchiato.toml"
    "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/slava.toml"
 ]
 
 [window]
@@ -32,6 +33,3 @@ y = 0
 [env]
 TERM = "xterm-256color"
 
-[terminal]
-shell.program = "tmux"
-shell.args = [ "attach", "-t", "Default" ]
