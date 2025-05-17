@@ -1,7 +1,7 @@
-hyfetch 
+catnap 
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/slava.json)"
+  eval "$(oh-my-posh init zsh  --config $HOME/.config/ohmyposh/themes/mocha.omp.json)"
 fi
 
 ### Added by Zinit's installer
@@ -61,3 +61,62 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Environment Variables
 export EDITOR=/usr/bin/nvim
+
+path+=('/home/sasha/anaconda3/bin/')
+
+# pfetch custom
+# Which information to display.
+# NOTE: If 'ascii' will be used, it must come first.
+# Default: first example below
+# Valid: space separated string
+#
+# OFF by default: shell editor wm de palette
+PF_INFO="ascii title os host kernel uptime pkgs memory"
+
+# Example: Only ASCII.
+PF_INFO="ascii"
+
+# Example: Only Information.
+PF_INFO="title os host kernel uptime pkgs memory"
+
+# A file to source before running pfetch.
+# Default: unset
+# Valid: A shell script
+PF_SOURCE=""
+
+# Separator between info name and info data.
+# Default: unset
+# Valid: string
+PF_SEP=":"
+
+# Enable/Disable colors in output:
+# Default: 1
+# Valid: 1 (enabled), 0 (disabled)
+PF_COLOR=1
+
+# Color of info names:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL1=4
+
+# Color of info data:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL2=9
+
+# Color of title data:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL3=1
+
+# Alignment padding.
+# Default: unset (auto)
+# Valid: int
+PF_ALIGN=""
+
+# Which ascii art to use.
+# Default: unset (auto)
+# Valid: string
+PF_ASCII="Catppuccin"
+
+export PATH=$PATH:/home/sasha/.spicetify
